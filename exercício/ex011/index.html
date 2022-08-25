@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>
+        Tente abrir esse site em dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto flexível">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/truckdriving.mp3" controls>PLAY</audio> <br>
+    <audio controls>
+        <source src="midia/Addict - NEFFEX.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso você não consiga ouvir pelo seu navegador, clique <a href="midia/Addict - NEFFEX.mp3">aqui</a> para download em MP3 da música</p>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado no meu próprio servidor</p>
+    <video src="videos/f713eaaa.mp4" width="400" controls></video>
+    <p>Uma outra forma de adicionar vídeos para conter vários formatos é:</p>
+    <video controls poster="imagens/tumb.png" width="400" loop>
+        <source src="videos/f713eaaa.mp4" type="video/mp4">
+        <source src="videos/F713eaaa.webm" type="video/webm">
+    </video>
+    <h1>Inserindo vídeos hospedados externamente</h1>
+    <p>A forma de adicionar vídeo de maneira mais "barata" para o cliente é assim:</p>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

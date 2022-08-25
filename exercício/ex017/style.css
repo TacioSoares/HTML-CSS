@@ -1,0 +1,36 @@
+@charset "UTF-8;";
+@font-face {
+    font-family:'GreatVibes' ;
+    src: url('fontes/GreatVibes-Regular.ttf') format('truetype');
+}
+body{     
+    height: 100%;                
+    background-image: linear-gradient(to left, rgb(156, 6, 6), rgb(226, 55, 55));
+}
+main{   
+    font: normal 16px times, verdana, serif;
+    text-align: left;
+    height: 100%;
+    background-color: white;    
+    border-radius: 10px;
+    padding: 20px;
+    margin:auto;
+    box-shadow: 5px 5px 15px black;
+    width: 400px;  
+}
+h1{
+    text-align: center;
+    font-family: 'GreatVibes';
+    text-decoration: underline;
+    color: rgb(187, 15, 15);
+    font-size: 2.5em;
+}
+h2{
+    text-align: left;
+    color: rgb(187, 15, 15);
+    font-family: 'GreatVibes';
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

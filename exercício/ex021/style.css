@@ -1,0 +1,21 @@
+@charset "UTF-8";
+h1 {
+    color: darkblue;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(228, 213, 243);
+    height: 100px;
+    width: 300px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: cornflowerblue;
+    padding: 10px;
+    outline-style: dashed;
+}
+a{
+    border-width: 1.5px;
+    border-style: dashed;
+    border-color: rgb(228, 106, 106);
+    text-decoration: none;
+    color: darkblue;
+}
