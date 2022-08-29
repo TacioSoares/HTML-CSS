@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cordel';
+    src: url('fontes/PassionOne-Bold.ttf');  
+}
+@font-face {
+    font-family: 'texto';
+    src: url('fontes/Sriracha-Regular.ttf');
+}
+* {
+    margin: 0px;
+}
+header {
+    display: inline-block
+    justify-content: space-between;
+    background-color: black;
+    max-height: 50px;
+    color: white;
+    padding: 60px;
+    text-align: center;
+    font-family: 'cordel';
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+main {
+    font-family: 'texto';
+    font-size: 18px;
+}
+#um {
+    padding: 70px 30px;
+    display: block;
+}
