@@ -5,12 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        fieldset {
+            display: inline-block;
+            background-image: linear-gradient(to bottom, rgb(105, 105, 105), lightgray);
+            color: black;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+            width: 300px;
+        }
+        legend {
+            margin: auto;
+            font-weight: bolder;
+            background-color: rgba(0, 0, 0, 0.514);
+            color: white;
+        }
+        #inome, #iemail, #itel{
+            width: 200px;
+        }
+        input#iemail {
+            margin: 0px 0px 0px 12px;
+        }
+        #inome {
+            margin: 0px 0px 0px 15px;
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
     <form action="cadastro.php" method="get">
         <fieldset>
             <legend>Dados Pessoas</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Digite seu nome">
+            </p>
             <p>
                 <label for="iemail">E-mail: </label>
                 <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Digite aqui o seu email">
