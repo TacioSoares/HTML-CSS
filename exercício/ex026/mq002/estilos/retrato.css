@@ -1,2 +1,9 @@
 @charset "UTF-8";
 /* Aparelho "em pé"(Modo retrato/portrait) */ 
+body {
+    background-image: url('../imagens/cev-portrait.jpg');    
+}
+h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+}
