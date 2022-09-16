@@ -30,7 +30,6 @@ a {
     padding: 5px;
     background-color: rgb(66, 65, 65);
     border-top: 2px solid gray;
-    border
 }
 a:hover {
     background-color: darkgrey;
@@ -51,4 +50,16 @@ section > h1 {
 section > p {
     text-indent: 1.3em;
     text-align: justify;
+}
+#menu {
+    display: block;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+#menu:hover {
+    background-color: white;
+    color: black;
 }
