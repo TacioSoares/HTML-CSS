@@ -7,6 +7,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
 }
 body {
     background-color: darkgray;
@@ -16,6 +17,7 @@ header {
 }
 header > h1 {
     text-align: center;
+    padding: 8px;
 }
 header > nav {
     background-color: rgb(66, 65, 65);
@@ -23,7 +25,7 @@ header > nav {
     text-align: center;
 }
 main {
-    width: 450px;
+    width: 90vw;
     background-color: white;
     max-width: 800px;
     min-width: 300px;
@@ -31,4 +33,10 @@ main {
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+}
+section > h1 {
+    padding: 5px 0px 20px 5px;
+}
+section > p {
+    text-indent: 1.3em;
 }
