@@ -21,6 +21,7 @@ header > h1 {
 }
 header > menu {
     text-align: center;
+    display: none;
 }
 a {
     display: block;
