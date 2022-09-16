@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* Para Tablets */
+
+@media screen and (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+    header > menu {
+        display: block;
+        margin: none;
+        background-color: rgb(48, 47, 47);
+        padding: 10px;
+        text-align: left;
+    }
+    ul{
+
+    }
+    li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    a {
+        background-color: darkgray;
+        padding: 8px 20px;
+    }
+    a:hover {
+        background-color: white;
+        color: black;
+    }
+    main {
+        max-width: 768px;
+    }
+}
+/* Para PC's */
+@media screen and (min-width: 992px) {
+    
+
+}
+/* Para Telas grandes */
+@media screen and (min-width: 1200px) {
+   
+}

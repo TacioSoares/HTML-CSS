@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+body {
+    background-color: darkgray;
+}
+header {
+    background-color: darkgray;
+}
+header > h1 {
+    text-align: center;
+    padding: 8px;
+}
+header > menu {
+    text-align: center;
+}
