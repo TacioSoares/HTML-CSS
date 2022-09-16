@@ -32,12 +32,4 @@
         max-width: 768px;
     }
 }
-/* Para PC's */
-@media screen and (min-width: 992px) {
-    
 
-}
-/* Para Telas grandes */
-@media screen and (min-width: 1200px) {
-   
-}
