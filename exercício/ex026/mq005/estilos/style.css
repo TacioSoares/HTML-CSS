@@ -19,10 +19,21 @@ header > h1 {
     text-align: center;
     padding: 8px;
 }
-header > nav {
-    background-color: rgb(66, 65, 65);
-    color: white;
+header > menu {
     text-align: center;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    background-color: rgb(66, 65, 65);
+    border-top: 2px solid gray;
+    border
+}
+a:hover {
+    background-color: darkgrey;
 }
 main {
     width: 90vw;
@@ -39,4 +50,5 @@ section > h1 {
 }
 section > p {
     text-indent: 1.3em;
+    text-align: justify;
 }
